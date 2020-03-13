@@ -1,12 +1,11 @@
 /* --------------------
-	this css is embedded in the script in
-	minified version. it is here for reference
-	only
+Add to Calendar CSS
 -------------------- */
 
 .add-to-calendar {
 	position: relative;
   text-align: left;
+	display: inline-block;
 }
 
 .add-to-calendar > * {
@@ -41,7 +40,8 @@ input[type=checkbox].add-to-calendar-checkbox {
 	line-height: 28px;
   cursor: pointer;
 	display: block;
-  margin-bottom: .25em;
+  margin-bottom: 1.25em;
+	margin-right: .25rem;
 }
 .add-to-calendar-widget.open .add-to-calendar-label + div.add-to-calendar-dropdown a:last-child,
 .add-to-calendar-checkbox + div.add-to-calendar-dropdown a:last-child {
@@ -91,33 +91,33 @@ input[type=checkbox].add-to-calendar-checkbox {
 -------------------- */
 
 .add-to-calendar-widget {
-	font-family: sans-serif;
-	margin: 1em 0;
 	position:relative;
 }
 
 .add-to-calendar-label {
 	display: inline-block;
-	background-color: white;
-  background-image: url(data:image/vndmicrosofticon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/wAAAAAAAAAAVlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/AAAAAFZWVv9WVlb///////////9WVlb///////////9WVlb///////////9WVlb///////////9WVlb/VlZW/wAAAABWVlb/VlZW////////////VlZW////////////VlZW////////////VlZW////////////VlZW/1ZWVv8AAAAAVlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/AAAAAFZWVv9WVlb///////////9WVlb///////////9WVlb///////////9WVlb///////////9WVlb/VlZW/wAAAABWVlb/VlZW////////////VlZW////////////VlZW////////////VlZW////////////VlZW/1ZWVv8AAAAAVlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/AAAAAFZWVv9WVlb///////////9WVlb///////////9WVlb///////////9WVlb///////////9WVlb/VlZW/wAAAABWVlb/VlZW////////////VlZW////////////VlZW////////////VlZW////////////VlZW/1ZWVv8AAAAAVlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/AAAAAFZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/1ZWVv9WVlb/VlZW/wAAAAAAAAAAVlZW/1ZWVv///////////1ZWVv9WVlb/VlZW/1ZWVv9WVlb///////////9WVlb/VlZW/wAAAAAAAAAAAAAAAAAAAABWVlb///////////9WVlb/AAAAAAAAAAAAAAAAVlZW////////////VlZW/wAAAAAAAAAAAAAAAAAAAAAAAAAAVlZW/1ZWVv9WVlb/VlZW/wAAAAAAAAAAAAAAAFZWVv9WVlb/VlZW/1ZWVv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==);
-  background-position: 10px 45%;
-	background-repeat:no-repeat;
-	padding: 6px 12px 6px 38px;
-	background-size: 20px 20px;
-	border-radius: 4px;
-	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  margin-right: 50px;
+}
+@media (max-width: 39.99em) {
+  .add-to-calendar {
+    display: block;
+  }
+  .add-to-calendar-label {
+    margin-top: 15px;
+    margin-right: 0;
+  }
 }
 
 .add-to-calendar-dropdown  {
 	position: absolute;
 	z-index: 99;
 	background-color: white;
-	top: -32px;
-	left: 32px;
+	top: 39px;
+	left: 0;
 	padding: 1em;
 	margin:0!important;
-	border-radius: 4px;
-	box-shadow: 0px 3px 6px rgba(0,0,0,0.2)
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  border: 1px solid #ebebeb;
 }
 
 .add-to-calendar-dropdown a {

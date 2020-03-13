@@ -2,13 +2,12 @@
 
 A simple JS library that enables you to add an "add to calendar" button for your upcoming events.
 
-## Resources
+## Notice
 
-This is a fork of the [Original Project](https://github.com/carlsednaoui/add-to-calendar-buttons) and will be going through several iterations.
+This is a fork of [Add to Calendar Buttons Project](https://github.com/WebuddhaInc/add-to-calendar-buttons), which
+is a fork of the [Original Project](https://github.com/carlsednaoui/add-to-calendar-buttons).
 
-[This Project](https://github.com/WebuddhaInc/add-to-calendar-buttons)
-[Live Demo](https://webuddhainc.github.io/add-to-calendar-buttons/example.html)
-[Calendar Button Generator](https://webuddhainc.github.io/add-to-calendar-buttons/generator/generator.html).
+The intent is to make improvements, some of which may be non-standard, to support the use of the calendars inside of web projects.
 
 ## Inspiration
 
@@ -90,6 +89,7 @@ The only fields that are mandatory are:
   <span class="title">Summary of the event</span>
   <span class="description">Description of the event</span>
   <span class="location">Location of the event</span>
+  <span class="icon">far fa-calendar-plus</span>
 </div>
 ```
     

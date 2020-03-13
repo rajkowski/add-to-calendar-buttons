@@ -1,0 +1,9 @@
+.DS_Store
+.Spotlight-V100
+.Trashes
+.bundle
+.idea
+*.iml
+*.ipr
+*.iws
+.vscode
